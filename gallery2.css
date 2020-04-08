@@ -1,0 +1,24 @@
+body {
+	padding-top:70px;
+}
+
+.jumbotron{
+	color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.img{
+   width:100px;
+   height:100px;
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+
+}
